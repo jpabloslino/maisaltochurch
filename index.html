@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mais Alto Church</title>
+</head>
+<body>
+    <!--Aqui começa o menu da página-->
+    <header>
+        <nav class="nav-bar">
+            <!--Inclusão da logo da Mais Alto Church-->
+            <div class="logo">
+                <img src="img/mais-alto-church.png" alt="Logo da Mais Alto Church">
+            </div>
+            <!--Aqui vem o menu de navegação do site-->
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Ministérios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Cultos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contribua</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <!--Abaixo fica um botão para fazer a responsividade do menu-->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+        <!--Aqui fica a parte responsiva do menu-->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ministérios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cultos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contribua</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Começo do corpo principal da página-->
+    <main>
+        <!--Aqui se faz a mensagem de bem-vindo-->
+        <div id="bem-vindo">
+            <p>Bem-vindo <br>à Mais Alto Church</p>
+        </div>
+        <!--Aqui vem uma breve descrição da Mais Alto Church-->
+        <div id="sobre-nos">
+            <h1>Sobre nós</h1>
+        </div>
+        <div id="paragrafo-sobre-nos">
+            <p>A Igreja Evangélica Mais Alto Church foi fundada em 2016 pelos pastores Daniel Camargo e Mariana Camargo, com sede em Santa Isabel, SP. Sua missão é "Fazer discípulos que fazem discípulos" e sua visão é "Ser uma igreja influente, relevante e transformadora em todas as áreas da sociedade". Seus valores incluem amor, comprometimento, excelência, inovação e simplicidade.
+            </p>
+        </div>
+        <!--Aqui vai ficar um campo de formulário para pedir orações-->
+        <div id="precisa-oracao">
+            <h1>Precisa de oração?</h1>
+        </div>
+        <div id="precisa-de-oracao">
+            <form action="oracao.php" method="post" autocomplete="off">
+                <label id="texto-oracao">Deixe aqui seu pedido de oração, iremos orar pela sua vida :)<br><br></label>
+                <input type="text" name="oracao" placeholder="Minha oração" id="oracao"><br><br>
+                <input type="submit" value="Enviar" id="botao-enviar-oracao">
+            </form>
+        </div>
+        <!--Aqui vem um formulário para o usuário colocar o email para cadastro de membro da igreja-->
+        <div id="voce-membro">
+            <h1>Você já é membro da nossa comunidade?</h1>
+        </div>
+        <div id="membro">
+            <form action="email.php" method="post" autocomplete="off">
+                <label id="texto-membro">Faça parte de nossos pequenos grupos, dos nossos cultos! Seja parte de nosso ministério! Deixe seu email para que possamos lhe enviar mais informações :)<br><br></label>
+                <input type="email" name="email" placeholder="Email" id="email"><br><br>
+                <input type="submit" value="Enviar" id="botao-enviar-email">
+            </form>
+        </div>
+    </main>
+
+    <!--Começo do rodapé da página-->
+    <footer>
+        <div class="redes-sociais">
+            <p>Siga-nos nas redes sociais:</p>
+            <a href="https://www.instagram.com/maisaltochurch/" target="_blank"><img src="img/instagram.png" alt="logo do Instagram" class="img-social"></a>
+            <a href="https://www.facebook.com/maisaltochurch" target="_blank"><img src="img/facebook.webp" alt="logo do Facebook" class="img-social"></a>
+            <a href="https://www.youtube.com/@MaisAltoChurch" target="_blank"><img src="img/youtube.avif" alt="logo do Youtube" class="img-social"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright© Mais Alto Church - 2023. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
