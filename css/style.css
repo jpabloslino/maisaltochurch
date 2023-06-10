@@ -223,9 +223,21 @@ footer {
     color: #fff;
 }
 
-.img-social {
-    height: 50px;
-    width: 50px;
+.instagram {
+    width: 30px;
+    height: 30px;
+    margin: 4px 10px;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    margin: 4px 10px;
+}
+
+.youtube {
+    width: 40px;
+    height: 30px;
     margin: 4px 10px;
 }
 
