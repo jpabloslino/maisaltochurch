@@ -4,10 +4,12 @@
     font-family: 'Zilla Slab', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #d3caca;
+    overflow-x: hidden;
 }
 
 header {
@@ -203,6 +205,53 @@ main {
     cursor: pointer;
 }
 
+#titulo {
+    background-color: #242424;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#titulo > h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.minist {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.ministerios {
+    background-color: #fff;
+    border: 2px solid #242424;
+    margin: 0px 12px;
+    padding: 7px;
+    border-radius: 7px;
+    width: 50%;
+}
+
+.ministerios > h2 {
+    background-color: #242424;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 5px 0px;
+}
+
+.ministerios > p {
+    font-size: 1.3rem;
+}
+
+.ministerios > img {
+    margin-top: 20px;
+    width: 100%;
+}
+
 footer {
     background-color: #242424;
     display: flex;
@@ -291,5 +340,33 @@ footer {
     #bem-vindo > p {
         font-size: 3rem;
         color: #fff;
+    }
+}
+
+@media (max-width: 700px) {
+    .minist {
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .ministerios {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: calc(100% - 10px);
+    }
+
+    .ministerios > p {
+        font-size: 1.3rem;
+    }
+
+    .ministerios > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .copyright > p {
+        font-size: 1rem;
     }
 }
