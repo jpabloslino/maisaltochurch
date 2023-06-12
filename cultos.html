@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cultos</title>
+</head>
+<body>
+    <!--Aqui começa o menu da página-->
+    <header>
+        <nav class="nav-bar">
+            <!--Inclusão da logo da Mais Alto Church-->
+            <div class="logo">
+                <img src="img/mais-alto-church.png" alt="Logo da Mais Alto Church">
+            </div>
+            <!--Aqui vem o menu de navegação do site-->
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="ministerios.html" class="nav-link">Ministérios</a></li>
+                    <li class="nav-item"><a href="cultos.html" class="nav-link">Cultos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <!--Abaixo fica um botão para fazer a responsividade do menu-->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt="Menu"></button>
+            </div>
+        </nav>
+        <!--Aqui fica a parte responsiva do menu-->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="ministerios.html" class="nav-link">Ministérios</a></li>
+                <li class="nav-item"><a href="cultos.html" class="nav-link">Cultos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Começo do corpo principal da página-->
+    <main>
+        <div id="tituloculto">
+            <h1>Cultos</h1>
+        </div>
+        <div class="horarios">
+            <div class="cultos">
+                <h2>Celebração</h2>
+                <p>Todas as quartas, das 19:00 às 21:00 <br></p>
+                <p>Ministração: Pr. Daniel Camargo</p>
+                <img src="img/culto-celebracao.png" alt="Culto de Celebração">
+            </div>
+            <div class="cultos">
+                <h2>Família</h2>
+                <p>Todas os domingos, das 19:00 às 21:00 <br></p>
+                <p>Ministração: Pr. Daniel Camargo</p>
+                <img src="img/culto-familia.png" alt="Culto da Família">
+            </div>
+        </div>
+        <div class="horarios">
+            <div class="cultos">
+                <h2>Jovens</h2>
+                <p>Todas as quartas, das 19:00 às 21:00 <br></p>
+                <p>Ministração: Obreiro Joel Caraça</p>
+                <img src="img/culto-jovens.png" alt="Culto de Jovens">
+            </div>
+            <div class="cultos">
+                <h2>Homens</h2>
+                <p>Todas as terças, das 20:00 às 22:00 <br></p>
+                <p>Ministração: Pr. Daniel Camargo</p>
+                <img src="img/culto-de-homens.jpg" alt="Culto de Homens">
+            </div>
+        </div>
+        <div class="horarios">
+            <div class="cultos">
+                <h2>Mulheres</h2>
+                <p>Todas as segundas, das 19:00 às 21:00 <br></p>
+                <p>Ministração: Pra. Mariana Camargo</p>
+                <img src="img/culto-de-mulheres.jpg" alt="Culto de Mulheres">
+            </div>
+            <div class="cultos">
+                <h2>Casais</h2>
+                <p>1º domingo de cada mês, das 19:00 às 21:00 <br></p>
+                <p>Ministração: Pr. Daniel Camargo</p>
+                <img src="img/culto-de-casais.png" alt="Culto de Casais">
+            </div>
+        </div>
+        <div id="tituloeventos">
+            <h1>Eventos</h1>
+        </div>
+        <div id="eventos">
+            <div class="eventos-igreja">
+                <h2>Santa Ceia</h2>
+                <div class="texto-img">
+                    <p>2º domingo de cada mês, das 19:00 às 21:00.<br>Ministração: Pr. Daniel Camargo</p>
+                    <img src="img/santa-ceia.png" alt="Culto de Santa Ceia">
+                </div>
+            </div>
+            <div class="eventos-igreja">
+                <h2>Apresentação Mais Kids</h2>
+                <div class="texto-img">
+                    <p>25/05, das 19:00 às 21:00.<br>Ministração: Pr. Daniel Camargo</p>
+                    <img src="img/apresentacao-kids.png" alt="Apresentação Mais Kids">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Começo do rodapé da página-->
+    <footer>
+        <div class="redes-sociais">
+            <p>Siga-nos nas redes sociais:</p>
+            <a href="https://www.instagram.com/maisaltochurch/" target="_blank"><img src="img/instagram.png" alt="logo do Instagram" class="instagram"></a>
+            <a href="https://www.facebook.com/maisaltochurch" target="_blank"><img src="img/facebook.png" alt="logo do Facebook" class="facebook"></a>
+            <a href="https://www.youtube.com/@MaisAltoChurch" target="_blank"><img src="img/youtube.png" alt="logo do Youtube" class="youtube"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Mais Alto Church - 2023. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

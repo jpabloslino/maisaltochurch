@@ -239,7 +239,7 @@ main {
     text-align: center;
     margin-bottom: 8px;
     border-radius: 4px;
-    padding: 5px 0px;
+    padding: 5px 5px;
 }
 
 .ministerios > p {
@@ -295,6 +295,108 @@ main {
 }
 
 .textimg > p {
+    font-size: 1.3rem;
+}
+
+#tituloculto {
+    background-color: #242424;
+    margin: 20px 0px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#tituloculto > h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.horarios {
+    display: flex;
+}
+
+.cultos {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border: 2px solid #242424;
+    padding: 10px 15px;
+    box-shadow: 0px 1px 2px #242424;
+    border-radius: 7px;
+}
+
+.cultos > h2 {
+    background-color: #7d7d7d;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 8px 5px;
+    border-radius: 4px;
+    padding: 5px 0px;
+}
+
+.cultos > img {
+    width: 400px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.cultos > p {
+    font-size: 1.3rem;
+}
+
+#tituloeventos {
+    background-color: #242424;
+    margin: 20px 0px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#tituloeventos > h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#eventos {
+    display: flex;
+}
+
+.eventos-igreja {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border: 2px solid #242424;
+    padding: 10px 15px;
+    box-shadow: 0px 1px 2px #242424;
+    border-radius: 7px;
+}
+
+.eventos-igreja > h2 {
+    background-color: #7d7d7d;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 8px 5px;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+.texto-img {
+    display: block;
+}
+
+.texto-img > img {
+    width: 350px;
+    height: 175px;
+    margin-top: 15px;
+}
+
+.texto-img > p {
     font-size: 1.3rem;
 }
 
@@ -431,7 +533,7 @@ footer {
 
     .ministerios {
         margin: auto;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
         width: calc(100% - 10px);
     }
 
@@ -473,5 +575,39 @@ footer {
 
     .ministerios > p {
         font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .horarios {
+        display: block;
+    }
+
+    .cultos > img {
+        width: 100%;
+        height: auto;
+    }
+
+    #eventos {
+        display: block;
+    }
+
+    .texto-img > img {
+        width: 100%;
+        height: auto;
+    }    
+}
+
+@media screen and (max-width: 412px) {
+    .cultos > p {
+        font-size: 1.1rem;
+    }
+
+    .texto-img > p {
+        font-size: 1.1rem;
+    }
+
+    .eventos-igreja > h2 {
+        font-size: 1.7rem;
     }
 }
