@@ -233,7 +233,7 @@ main {
 }
 
 .ministerios > h2 {
-    background-color: #242424;
+    background-color: #7d7d7d;
     color: #fff;
     font-size: 2rem;
     text-align: center;
@@ -400,6 +400,81 @@ main {
     font-size: 1.3rem;
 }
 
+#titulo-contatos {
+    background-color: #242424;
+    margin: 20px 0px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#titulo-contatos > h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#contatos {
+    background-color: #fff;
+    border: 2px solid #242424;
+    box-shadow: 0px 1px 2px #242424;
+    border-radius: 7px;
+}
+
+.contato-membros {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+}
+
+.contato-membros > p {
+    font-size: 1.3rem;
+}
+
+.contato-membros > h2 {
+    background-color: #7d7d7d;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 8px 5px;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+
+.tela-pc {
+    display: flex;
+}
+
+#titulo-endereco {
+    background-color: #242424;
+    margin: 20px 0px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#titulo-endereco > h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+#endereco {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    align-items: center;
+    border: 2px solid #242424;
+    box-shadow: 0px 1px 2px #242424;
+    border-radius: 7px;
+}
+
+#endereco > p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
 footer {
     background-color: #242424;
     display: flex;
@@ -522,6 +597,22 @@ footer {
     #texto-membro {
         font-size: 1.1rem;
     }
+
+    .textimg > p {
+        font-size: 1rem;
+    }
+
+    .ministerios > p {
+        font-size: 1.1rem;
+    }
+
+    .contato-membros > h2 {
+        font-size: 1.6rem;
+    }
+
+    .contato-membros > p {
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -557,9 +648,9 @@ footer {
     }
 
     .textimg > img {
-        margin: 10px 0px;
-        width: 260px;
-        height: 300px;
+        margin: 10px;
+        width: 80%;
+        height: auto;
         padding: 0px;
     }
 
@@ -568,13 +659,24 @@ footer {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .textimg > p {
-        font-size: 1rem;
+@media screen and (max-width: 738px) {
+    .tela-pc {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #endereco {
+        display: block;
     }
 
-    .ministerios > p {
-        font-size: 1.1rem;
+    #endereco > img {
+        width: 100%;
+        height: auto;
+    }
+
+    #endereco > p {
+        margin-bottom: 15px;
     }
 }
 
