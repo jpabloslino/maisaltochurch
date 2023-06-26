@@ -4,10 +4,10 @@ Bem-vindo ao site oficial da Mais Alto Church!
 
 ## Páginas do Site
 
-- [Página Inicial](#página-inicial)
+- [Home](#home)
 - [Ministérios](#ministérios)
 - [Cultos](#cultos)
-- [Contato](#contato)
+- [Contatos](#contatos)
 
 ## Home
 ![Imagem da Home](img/imagem-da-home.png)
